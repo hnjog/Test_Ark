@@ -32,4 +32,23 @@ public static class Define
         Effect,
         Max,
     }
+
+    public enum ETileType // 타일의 지형 타입
+    {
+        None, // 궁중섬
+        Dessert,
+        Field,
+        Ice,
+        Lava,
+    }
+
+    public enum ETileEventType
+    {
+        None,
+        Cave, // 동굴
+        Island, // 섬
+        Ruins,// 유적
+        Temple, // 신전
+    }
+
 }
